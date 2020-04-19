@@ -1,5 +1,15 @@
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163989453-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-163989453-1');
+    </script>
+
     <meta charset="UTF-8">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -36,7 +46,7 @@
                 <li><img src="assets/img/search.svg" alt="Search Icon">Metadata Lookup</li>
                 <li><img src="assets/img/tablet.svg" alt="Tablet Icon">Send to Kindle</li>
             </ul>
-            <form>
+            <form netlify>
                 <label for="email">Your Email</label>
                 <input name="email" id="email" type="email">
                 <p class="t-promise">We’ll only send you emails to let you know when it’s ready. Promise.</p>
