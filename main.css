@@ -168,30 +168,34 @@ button {
 }
 
 @media (max-width: 900px) {
-    main {
-        flex-direction: column;
-    }
+  main {
+    flex-direction: column;
+  }
 
-    main > div:first-child {
-        max-width: 65%;
-        margin: 0;  
-    }
+  main > div:first-child {
+    max-width: 65%;
+    margin: 0;
+  }
 
-    main > div:last-child {
-        display: none;
-    }
+  main > div:last-child {
+    display: none;
+  }
 }
 
 @media (max-width: 425px) {
-    body {
-        background: rgb(255, 255, 255);
-    }
+  body {
+    background: rgb(255, 255, 255);
+  }
 
-    main {
-        margin-top: 20px;
-    }
+  main {
+    margin-top: 20px;
+  }
 
-    main > div:first-child {
-        max-width: unset;
-    }
+  main form {
+    margin: 30px 0 40px;
+  }
+
+  main > div:first-child {
+    max-width: unset;
+  }
 }
