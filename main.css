@@ -2,6 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -15,9 +16,13 @@ body {
   );
 }
 
-h1,
+h1 {
+  font-family: "DM Serif Display", Georgia, "Times New Roman", Times, serif;
+
+}
+
 .t-subtitle {
-  font-family: "PT Serif", Georgia, "Times New Roman", Times, serif;
+  font-family: "DM Serif Text", Georgia, "Times New Roman", Times, serif;
 }
 
 p,
@@ -25,7 +30,7 @@ input,
 label,
 button,
 li {
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "IBM Plex Sans", Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -40,7 +45,7 @@ main {
   display: flex;
   justify-content: space-between;
 
-  margin-top: 80px;
+  margin-top: 15vh;
 }
 
 main > div:first-child {
@@ -69,6 +74,7 @@ main form {
 }
 
 h1 {
+  font-weight: 400;
   font-size: 48px;
   margin: 0;
 }
@@ -76,6 +82,7 @@ h1 {
 .t-subtitle {
   margin: 0;
   font-size: 18px;
+  color: #65676C;
 }
 
 .t-body {
